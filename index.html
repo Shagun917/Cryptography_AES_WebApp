@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Encryption & Decryption in ClientSide Javascript.</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="heading">Image Encryption & Decryption With AES.</h1>
+
+        <table border="2">
+            <tr>
+                <th id="th17"> ENCRYPTION </th>
+                <th id="th18"> DECRYPTION </th>
+                </tr>
+
+                <tr>
+                    <td>  <form action="javascript(void(0))" id="form">
+                            <label for="image" id="label23">Image</label>
+                            <input type="file" name="file" id="file" class="file" required accept="image/*">
+                            <br><label for="image" id="label25">Password</label><br>
+                            <input type="text" name="password" id="password" placeholder="Enter Password" required>
+                           
+                                
+                        <button type="submit" id="button29">Encrypt</button>
+                        </form>
+                        </td>
+            
+                 <td>
+                    <form action="javascript(void(0))" id="form2">
+                        <label id="label35">Enter Password To Decrypt</label><br>
+                        <input type="text" name="password" id="decypt_password" class="Depassword" placeholder="Enter Password" required>
+                        <button type="submit" id="decode">Decrypt</button>
+                    </form>
+                 </td>
+                 </tr>
+
+              
+
+
+            
+              <tr>
+                <td><span id="span47">Original Image</span>
+                <img src="" alt="" class="preview" id="originalImagePreview" width="50%" height=auto>
+              </td>
+            </tr>
+
+            <tr>
+                <td><span id="span53">Original Image Size</span>
+                <span id="originalImageSize"></span></td>
+            </tr>
+
+            <tr>
+                <td><span id="span58"> Encrypted Image Text </span>
+                <textarea name="encryptedImageText" id="encryptedImageText" cols="30" rows="10"></textarea>
+                </td>
+
+                 <td> <span id="span62"> Decrypted Image</span> 
+                    <img src="" alt="" class="decrypt" id="decryptedImagePreview" width="50%" height="auto">
+                
+                </td>
+            
+                 
+            </tr>
+
+            <tr>
+                <td><span id="span71"> Encrypted Image Size</span>
+                <span id="encryptedTextSize"></span>
+                </td>
+    > 
+              <td> <span id="span75"> Decrypted Image Size</span>
+               <span id="decryptedImageSize"></span>
+              </td>
+          </tr>
+    </table>
+        
+            
+
+     
+            
+                   
+                   
+
+                   
+                        
+                   
+       
+
+</body>
+
+<footer>
+    <div class="col">
+        <div class="guide">
+            <section>
+                <h3>How to convert.</h3>
+                <ol start="1" type="1">
+                    <li>Choose your Image.</li>
+                    <li>Choose a password for encryption/decryption.</li>
+                    <li>Press convert button.</li>
+                    <li>See the magic.</li>
+                </ol>
+            </section>
+            <section>
+                <h3>How it works.</h3>
+                <ol start="1" type="1">
+                    <li>Uploaded image will be converted to its Base64 representation.</li>
+                    <li>That Base64 String will be encrypted using AES algorithm using provided password as a key.
+                    </li>
+                    <li>For decryption, the encrypted Base64 string will be decrypted using same password.</li>
+                </ol>
+            </section>
+        </div>
+    </div>
+
+</footer>   
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script> 
+<script src="./index.js"></script>
+
+</html>

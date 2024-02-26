@@ -1,0 +1,191 @@
+body {
+    padding: 15px;
+    background-color:black;
+}
+
+*{
+    color:white;
+}
+
+
+.heading{
+      text-align: center; 
+      padding-bottom: 10px;   
+      color: white;
+      height: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.headingtwo{
+        border: 5px solid black;
+        padding-left: 160px;
+        padding-right: 160px;
+          margin-left: 300px;
+          background-color: aliceblue;
+          display: inline;
+          
+}
+
+#th17{
+     background-color: red;
+     font-size: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#th18{
+     background-color: green;
+     font-size: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#password{
+    color:white;
+}
+
+#decypt_password{
+      color: white;
+}
+
+#label23{
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+#label25{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#label35{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input {
+    margin: 12px 12px 12px 0px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 3px solid grey;
+    width: 50%;
+    height: 25px;
+    color: white;
+     background: transparent;
+     font-size: 12px;
+     padding-left: 10px;
+
+    
+
+}
+
+#button29{
+    padding: 10px 25px;
+    border: 5px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+}
+
+#button29:hover {
+    background:#dc030f;
+    cursor: pointer;
+    color: white;
+}
+
+#decode{
+    padding: 10px 25px;
+    border: 5px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+}
+
+#decode:hover {
+    background:greenyellow;
+    cursor: pointer;
+    color: white;
+}
+
+/* button:focus {
+    border-radius: none;
+} */
+
+#span47{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#span53{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#originalImageSize{
+    color: blue;
+    font-size: 20px;
+}
+
+#span58{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#encryptedImageText{
+    color: white;
+    background: none;
+}
+
+
+#span62{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#span71{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#encryptedTextSize{
+    color: blue;
+    font-size: 20px;
+}
+
+#span75{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#decryptedImageSize{
+    color: blue;
+    font-size: 20px;
+}
+
+table{
+     width: 100%;
+     border-radius: 5px;
+}
+
+tr,
+th,
+td {
+    padding: 10px;
+}
+
+/* .form-group {
+    padding: 10px;
+} */
+
+section{
+    padding: 10px;
+}
+section h3{
+    padding-left: 25px;
+}
+
+
+
+footer {
+    color: white;
+}
