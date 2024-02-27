@@ -1,19 +1,22 @@
 body {
     padding: 15px;
-    background-color:black;
+    background-image: URL("back.jpg");
+    background-size: cover;
 }
-
+.file {
+    color: white;
+}
 *{
     color:white;
+    font-style: Sans-serif;
 }
 
 
 .heading{
-      text-align: center; 
-      padding-bottom: 10px;   
+      text-align: center;    
       color: white;
       height: 50px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
    
 }
 
@@ -28,14 +31,18 @@ body {
 }
 
 #th17{
-     background-color: red;
-     font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     background-color: rgb(33, 26, 56);
+     font-size: 22px;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #th18{
-     background-color: green;
-     font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+     background-color: rgb(33, 26, 56);
+     font-size: 22px;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -67,44 +74,44 @@ input {
     margin: 12px 12px 12px 0px;
     padding: 5px;
     border-radius: 4px;
-    border: 3px solid grey;
+    border: 3px solid white;
     width: 50%;
     height: 25px;
-    color: white;
+    color: black;
      background: transparent;
      font-size: 12px;
      padding-left: 10px;
-
-    
 
 }
 
 #button29{
     padding: 10px 25px;
-    border: 5px solid black;
+    border: 5px solid white;
     background-color: white;
     color: black;
     border-radius: 12px;
 }
 
 #button29:hover {
-    background:#dc030f;
-    cursor: pointer;
+    background:rgb(55, 32, 88);
     color: white;
+    border: 5px solid rgb(55, 32, 88);
+    cursor: pointer;
 }
 
 #decode{
     padding: 10px 25px;
-    border: 5px solid black;
+    border: 5px solid white;
     background-color: white;
     color: black;
     border-radius: 12px;
 }
 
 #decode:hover {
-    background:greenyellow;
-    cursor: pointer;
+    background:rgb(55, 32, 88);
     color: white;
+    border: 5px solid rgb(55, 32, 88);
+    cursor: pointer;
 }
 
 /* button:focus {
@@ -154,17 +161,24 @@ input {
 
 #span75{
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 #decryptedImageSize{
     color: blue;
     font-size: 20px;
 }
-
+.newdiv {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
 table{
-     width: 100%;
-     border-radius: 5px;
+     width: 80%;
+     border-radius: 10px;
+     border-collapse: collapse;
+     border-color: black;
+     backdrop-filter: blur(20px);
 }
 
 tr,
