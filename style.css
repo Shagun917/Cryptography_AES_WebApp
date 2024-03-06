@@ -69,7 +69,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+textarea {
+    background: transparent;
+    color: white;
+}
 input {
     margin: 12px 12px 12px 0px;
     padding: 5px;
@@ -129,7 +132,7 @@ input {
 }
 
 #originalImageSize{
-    color: blue;
+    color: white;
     font-size: 20px;
 }
 
@@ -155,7 +158,7 @@ input {
 }
 
 #encryptedTextSize{
-    color: blue;
+    color: white;
     font-size: 20px;
 }
 
@@ -163,9 +166,13 @@ input {
     font-size: 20px;
     font-family: sans-serif;
 }
+#span59{
+    font-size: 20px;
+    font-family: sans-serif;
+}
 
 #decryptedImageSize{
-    color: blue;
+    color: white;
     font-size: 20px;
 }
 .newdiv {
